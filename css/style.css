@@ -28,6 +28,7 @@ header div {
 /* Jumbotron */
 #jumbotron {
     height: 80vh;
+    position: relative;
 }
 
 #jumbotron {
@@ -35,4 +36,16 @@ header div {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+#jumbotron img {
+    width: 100%;
+    border-radius: 3rem;
+    /*da risolvere: img col si rimpiccioliscono troppo*/
+}
+
+#jumbotron .row {
+    position: absolute;
+    bottom: -22rem;
+    /*da risolvere*/
 }
