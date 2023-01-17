@@ -79,3 +79,8 @@ main {
     background-size: cover;
     background-position: center;
 }
+
+/* Nuove Uscite */
+#nuove-uscite img {
+    border-radius: 3rem;
+}
