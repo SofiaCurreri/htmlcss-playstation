@@ -58,9 +58,9 @@ main {
 }
 
 .container-jumbotron-thumbnails img {
-    width: 100%;
+
     border-radius: 2rem;
-    min-width: 200px;
+
 }
 
 /*da risolvere: thumbnails si rimpiccioliscono troppo*/
