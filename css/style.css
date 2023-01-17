@@ -5,9 +5,11 @@
 /* FINE DEBUG */
 
 
+
 .btn {
     border-radius: 2rem;
 }
+
 
 /* HEADER */
 header div {
@@ -27,18 +29,20 @@ header nav {
 }
 
 
+
 /* MAIN */
 main {
     margin-top: 150px;
 
 }
 
-/* section {
-    padding-bottom: 3rem;
-} */
-
 .btn-danger {
     background-color: rgb(205, 61, 15) !important;
+}
+
+#no-thumb-jumbotron h2,
+#jumbotron h2 {
+    font-size: 5rem;
 }
 
 /* Jumbotron */
@@ -58,22 +62,20 @@ main {
 }
 
 .container-jumbotron-thumbnails img {
-
     border-radius: 2rem;
-
 }
 
-/*da risolvere: thumbnails si rimpiccioliscono troppo*/
 
 /* Products */
-#products header {
-    margin-top: 8rem;
+#products header,
+.container-products-thumbnails {
+    margin-top: 6rem;
 }
 
-/* #products .testo {
-    padding-top: 20rem !important;
-} */
-
-.container-products-thumbnails .row img {
-    width: 150px;
+/* No-thumb-Jumbotron */
+#no-thumb-jumbotron .upper-jumbotron {
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
