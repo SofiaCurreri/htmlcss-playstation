@@ -1,9 +1,5 @@
 /* DEBUG */
 
-header div {
-    height: 50px;
-}
-
 
 
 /* FINE DEBUG */
@@ -14,6 +10,14 @@ header div {
 }
 
 /* HEADER */
+header div {
+    height: 50px;
+}
+
+header nav {
+    height: 100px;
+}
+
 .btn-dark {
     background-color: rgba(0, 0, 0, 0.7);
 }
@@ -24,28 +28,30 @@ header div {
 
 
 /* MAIN */
-
-/* Jumbotron */
-#jumbotron {
-    height: 80vh;
-    position: relative;
+main {
+    margin-top: 150px;
+    width: 100vw;
 }
 
-#jumbotron {
+
+/* Jumbotron */
+.container-carousel-jumbotron {
+    height: 80vh;
+}
+
+.upper-jumbotron {
     background-image: url('../img/jumbo-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-#jumbotron img {
-    width: 100%;
-    border-radius: 3rem;
-    /*da risolvere: img col si rimpiccioliscono troppo*/
+#jumbotron h1 {
+    font-size: 5rem !important;
 }
 
-#jumbotron .row {
-    position: absolute;
-    bottom: -22rem;
-    /*da risolvere*/
+.container-jumbotron-thumbnails img {
+    width: 100%;
+    border-radius: 2rem;
+    /*da risolvere: img col si rimpiccioliscono troppo*/
 }
