@@ -30,9 +30,16 @@ header nav {
 /* MAIN */
 main {
     margin-top: 150px;
-    width: 100vw;
+
 }
 
+/* section {
+    padding-bottom: 3rem;
+} */
+
+.btn-danger {
+    background-color: rgb(205, 61, 15) !important;
+}
 
 /* Jumbotron */
 .container-carousel-jumbotron {
@@ -53,5 +60,20 @@ main {
 .container-jumbotron-thumbnails img {
     width: 100%;
     border-radius: 2rem;
-    /*da risolvere: img col si rimpiccioliscono troppo*/
+    min-width: 200px;
+}
+
+/*da risolvere: thumbnails si rimpiccioliscono troppo*/
+
+/* Products */
+#products header {
+    margin-top: 8rem;
+}
+
+/* #products .testo {
+    padding-top: 20rem !important;
+} */
+
+.container-products-thumbnails .row img {
+    width: 150px;
 }
