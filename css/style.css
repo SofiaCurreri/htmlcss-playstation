@@ -110,3 +110,15 @@ main {
     min-height: 500px;
     background-color: rgb(0, 67, 156);
 }
+
+#bottom-footer .global {
+    width: 1.5rem;
+}
+
+#bottom-footer ul {
+    list-style: none;
+}
+
+#bottom-footer .sie-logo {
+    width: 10rem;
+}
