@@ -122,3 +122,8 @@ main {
 #bottom-footer .sie-logo {
     width: 10rem;
 }
+
+#bottom-footer a {
+    text-decoration: none;
+    color: currentColor;
+}
