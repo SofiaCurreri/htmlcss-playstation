@@ -28,6 +28,10 @@ header nav {
     background-color: white !important;
 }
 
+/* .dropdown-toggle::after {
+    content: url('../img/chevron-down-solid.svg') !important;
+} */
+
 
 
 /* MAIN */
