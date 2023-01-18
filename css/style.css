@@ -88,3 +88,16 @@ main {
 #nuove-uscite img {
     border-radius: 3rem;
 }
+
+/* Plus */
+#plus .container-fluid {
+    min-height: 200px;
+}
+
+.bg-secondary {
+    background-color: rgb(190, 188, 187) !important;
+}
+
+.btn-secondary {
+    border-color: rgb(190, 188, 187) !important;
+}
