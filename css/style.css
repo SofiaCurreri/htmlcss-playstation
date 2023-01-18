@@ -107,7 +107,6 @@ main {
 
 /* Bottom-footer */
 #bottom-footer .container-fluid {
-    min-height: 500px;
     background-color: rgb(0, 67, 156);
 }
 
